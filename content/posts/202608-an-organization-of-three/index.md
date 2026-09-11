@@ -93,6 +93,14 @@ The model setup follows the same principle. The normal path is OpenAI's GPT-5.6 
 
 This distinction matters. “Local AI” is not automatically safer if it has too much authority. The right arrangement is a useful model with a constrained job, a tool with an auditable scope, and a human approval step wherever a real-world side effect begins.
 
+## What we adopted from ECC
+
+Rather than installing ECC wholesale, we selectively adopted eight instruction-only operating skills: evidence-based completion, failure recovery, research provenance, decision records, regression-first debugging, high-risk review, role-specific quality gates, and agent experimentation. Each was security-reviewed and installed as a shared OpenClaw skill.
+
+We also added complementary operating skills around the same discipline: implementation planning, verification loops, performance review, release readiness, accessibility review, security review, research synthesis, competitive benchmarking, brand-voice discovery, and decision councils. They extend the layer from diagnosis and verification into planning, product quality, communication, and deliberate decision-making.
+
+We intentionally excluded executable hooks, installers, MCP integrations, generic personas, shared-memory systems, and automated learning machinery. The result is a lighter operating layer that improves verification, recovery, research rigor, decision quality, and experimentation without expanding agent permissions or the external attack surface.
+
 ## What we have actually been doing
 
 The upgrade is already producing work rather than just a prettier diagram. In the first seven days, we have:
