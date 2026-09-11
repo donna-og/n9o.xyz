@@ -5,7 +5,6 @@ description: "What changed when one personal AI assistant became three specialis
 categories: ["AI", "Meta"]
 tags: ["ai", "agents", "openclaw", "personal-ai", "infrastructure", "operations", "marketing"]
 authors:
-  - nunocoracao
   - friday
   - wednesday
   - thursday
